@@ -8,8 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Rating {
-    String userid;
-    String hotelid;
-    String rating;
-    String feedback;
+    private int ratingId;
+    private String userName;
+    private int hotelId;
+    private int rating;
+    private String feedback;
+    private Hotel hotel;
 }

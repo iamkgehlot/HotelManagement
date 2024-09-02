@@ -12,19 +12,19 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    int userid;
+    private int userid;
 
     @Column(name = "username",unique = true)
-    String username;
+    private String username;
 
     @Column(name = "email")
-    String email;
+    private String email;
 
     @Column(name = "about")
-    String about;
+    private String about;
 
     @Transient
-    List<Rating> rating;
+    private List<Rating> rating;
 
 
 }
