@@ -1,13 +1,15 @@
 package com.hotelmanagement.userservice.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.Generated;
+import lombok.*;
 
 import java.util.List;
 
 @Data
 @Entity
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     @Id
