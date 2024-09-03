@@ -4,7 +4,6 @@ import com.hotelmanagement.userservice.entity.User;
 import com.hotelmanagement.userservice.service.UserService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
